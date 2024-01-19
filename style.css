@@ -5,7 +5,10 @@
     box-sizing: border-box;
     }
     body {
-    background: #222;
+        position: relative;
+        background-image: url("bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .card {
         width: 90%;
